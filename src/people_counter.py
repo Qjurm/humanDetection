@@ -8,11 +8,11 @@ import os
 from datetime import datetime
 
 # --- Instellingen ---
-CSV_FILENAME = "demo.csv"
+CSV_FILENAME = "data/demo.csv"
 data = 0
 
 # --- Globale variabelen ---
-address = "https://192.168.12.1:5173/api/runs/-1/submissions/-1"
+# address = "https://192.168.12.1:5173/api/runs/-1/submissions/-1"
 drawing = False
 ix, iy = -1, -1
 zones = []  # Lijst: [(x1, y1, x2, y2), ...]

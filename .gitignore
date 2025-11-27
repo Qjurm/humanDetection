@@ -1,0 +1,5 @@
+#ignore generated files in data
+data/
+
+#ignore model
+src/yolo11n.pt
